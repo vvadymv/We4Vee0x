@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import boto3
 
-access_key = 'AKIAJFGARNMXDRHJX6WA'
-secret_key = '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'
+# playtech.com
+
+access_key = 'AKIAICDFTTNOXYO2FJFA'
+secret_key = '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'
 
 def get_aws_account_id(access_key, secret_key):
     sts = boto3.client(
