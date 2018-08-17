@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import boto3
 
-access_key = 'AKIAJODMFAHUEVVVKKIQ'
-secret_key = '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'
+access_key = 'AKIAJFGARNMXDRHJX6WA'
+secret_key = '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'
 
 def get_aws_account_id(access_key, secret_key):
     sts = boto3.client(
